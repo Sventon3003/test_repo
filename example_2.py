@@ -4,12 +4,13 @@
 # 0.625 but it gives 0.0 instead. Why is this?
 
 import numpy as np
+from copy import deepcopy
 
 # Define the original set of values.
 values = [8., 7., 9., 4., 6., 7., 8., 4.]
 
 # Create a new list with the original values and add a few more
-new_values = values
+new_values = deepcopy(values)
 new_values.append(8.)
 new_values.append(9.)
 new_values.append(2.)
