@@ -18,4 +18,3 @@ x = np.linspace(0., 10., n)
 y = 3. * x ** 2 + 2. * x + 1.
 
 print "Integral is:", trapz(y, x)
-# x and y were switched.

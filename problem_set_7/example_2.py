@@ -12,7 +12,6 @@ values = [8., 7., 9., 4., 6., 7., 8., 4.]
 # Create a new list with the original values and add a few more
 new_values = deepcopy(values)
 new_values.append(8.)
-# this changes "values" as well, because it works in-place
 new_values.append(9.)
 new_values.append(2.)
 new_values.append(1.)
